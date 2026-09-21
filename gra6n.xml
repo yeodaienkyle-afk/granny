@@ -11,8 +11,8 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/TemplateData/style.css">
-    <script src="https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/sdk.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/TemplateData/style.css">
+    <script src="https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/sdk.js"></script>
     <!-- GameMonetize SDK Entegrasyonu -->
     <script type="text/javascript">
         window.SDK_OPTIONS = {
@@ -47,7 +47,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background: url('https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/background.png') no-repeat center center fixed;
+            background: url('https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/background.png') no-repeat center center fixed;
             background-size: cover;
         }
         #unity-container {
@@ -114,7 +114,7 @@
         <canvas id="unity-canvas" style="position: absolute; width: 100%; height: 100%"></canvas>
         <div id="unity-loading-bar">
             <div id="unity-logo">
-                <img src="https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/logo.png" alt="Granny Logo">
+                <img src="https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/logo.png" alt="Granny Logo">
             </div>
             <div id="unity-progress-bar-empty">
                 <div id="unity-progress-bar-full"></div>
@@ -188,7 +188,7 @@
             }
         }
 
-        var buildUrl = "https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/Build";
+        var buildUrl = "https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/Build";
         var loaderUrl = buildUrl + "/Granny.loader.js";
 
         async function initializeGame() {
@@ -203,7 +203,7 @@
                     dataUrl: dataBlobUrl,
                     frameworkUrl: buildUrl + "/Granny.framework.js",
                     codeUrl: wasmBlobUrl,
-                    streamingAssetsUrl: "https://cdn.jsdelivr.net/gh/gru6nny/ohd@main/StreamingAssets",
+                    streamingAssetsUrl: "https://cdn.jsdelivr.net/gh/yeodaienkyle-afk/granny@main/StreamingAssets",
                     companyName: "Anastasia Kazantseva",
                     productName: "Granny",
                     productVersion: "1.0",
